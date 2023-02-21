@@ -1,4 +1,7 @@
 .navbar {
-  height: 100px;
+  height: 60px;
   border: 1px solid red;
+  position: fixed;
+  inset: 0;
+  padding: 1rem 2vw;
 }

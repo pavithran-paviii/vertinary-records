@@ -1,0 +1,12 @@
+.landingContainer {
+  border: 1px solid red;
+  height: 100vh;
+  background: rgb(94, 206, 184);
+  background: linear-gradient(
+    68deg,
+    rgba(94, 206, 184, 1) 0%,
+    rgba(62, 172, 168, 1) 35%,
+    rgba(7, 108, 128, 1) 100%
+  );
+  padding: 0 2vw;
+}
