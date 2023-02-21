@@ -1,7 +1,39 @@
 .navbar {
   height: 60px;
-  border: 1px solid red;
+  // border: 1px solid red;
   position: fixed;
   inset: 0;
   padding: 1rem 2vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & > .logoDiv {
+    // border: 1px solid red;
+    height: calc(100% + 0.5rem);
+
+    & > img {
+      height: 100%;
+      max-width: 100%;
+      object-fit: contain;
+      cursor: pointer;
+    }
+  }
+
+  & > .accountsDiv {
+    display: flex;
+    gap: 30px;
+
+    & > div {
+      cursor: pointer;
+      transition: all ease-in 0.2s;
+
+      &:hover {
+        border-bottom: 1px solid white;
+      }
+    }
+  }
 }
